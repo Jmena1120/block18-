@@ -1,0 +1,71 @@
+/* Reset / Base Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f5f5f5;
+  color: #333;
+}
+
+/* App container */
+#app {
+  max-width: 800px;
+  margin: 40px auto;
+  background: white;
+  padding: 20px 28px;
+  border-radius: 8px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+h1 {
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+/* Average rate text */
+#app p {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 25px;
+  color: #444;
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+thead {
+  background: #eaeaea;
+}
+
+thead th {
+  padding: 12px;
+  text-align: left;
+  font-size: 1rem;
+  font-weight: 600;
+  border-bottom: 2px solid #ccc;
+}
+
+tbody td {
+  padding: 10px 12px;
+  border-bottom: 1px solid #eee;
+}
+
+/* Row hover effect */
+tbody tr:hover {
+  background-color: #f9f9f9;
+}
+
+/* Last row no border */
+tbody tr:last-child td {
+  border-bottom: none;
+}
